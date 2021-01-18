@@ -1,0 +1,42 @@
+header {
+	background: url("../../../front-end/assets/pictures/background.jpg") no-repeat center / cover;
+	height: 900px;
+	min-width: 100%;
+	position: relative;
+
+	& .title {
+		position: absolute;
+		color: white;
+		top: 100px;
+		left: 100px;
+		& p {
+			font-size: 35px;
+		}
+		& div {
+			font-size: 50px;
+			text-transform: uppercase;
+		}
+	}
+
+	& .navbar {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		background: white;
+		width: 100%;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		&__links {
+			padding: 20px;
+			text-transform: uppercase;
+			& a {
+				text-decoration: none;
+			}
+		}
+		& ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+		}
+	}
+}

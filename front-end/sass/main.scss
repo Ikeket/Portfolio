@@ -1,0 +1,18 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./utils/breakpoints"; // media quieries variables
+
+@import "./base/base";
+@import "./base/footer";
+@import "./base/header";
+@import "./base/typography";
+
+@import "./components/animations";
+@import "./components/buttons";
+
+@import "./pages/applications";
+@import "./pages/games"; // change "page1" with the subject of page, ex : contact, blog, etc.
+@import "./pages/homepage";
+@import "./pages/websites";
+
+// dont forgive to generate .json to use Sass correctly.
